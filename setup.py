@@ -8,5 +8,8 @@ setup(
     install_requires=[
         'numpy',
         'scipy',
+        'deprecation',
     ],
+    packages=find_packages('tarp'),
+    package_dir={'': 'src'},
 )
