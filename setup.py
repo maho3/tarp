@@ -10,6 +10,6 @@ setup(
         'scipy',
         'deprecation',
     ],
-    packages=find_packages('tarp'),
+    packages=find_packages(where='src', include=['tarp']),
     package_dir={'': 'src'},
 )
